@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bgPic {
+    z-index: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+}
+
+.bonuspic {
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.bonuspic2 {
+    position: absolute;
+    top: 5vh;
+    left: 29vw;
+    width: 10.5vw;
+    height: 10.5vw;
+    object-fit: cover;
+    border-radius: 15px 15px 15px 15px;
+}
+
+img.bonuspic2:hover {
+    top: 16vh;
+    left: 23.5vw;
+    transform: scale(2);
+}
+
+.texting {
+    z-index: 1;
+    position: absolute;
+    top: 73vh;
+    left: 13.5%;
+}
+
+.textHighlight {
+    font-size: 4.5vw;
+    font-family: 'Itim', cursive;
+    color: #3a3b3c;
+}
+
+.lAndS {
+    display: inline-flex;
+    position: absolute;
+    top: 6vh;
+    left: 72vw;
+    z-index: 1;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.goodshadow {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    text-shadow: -1px -1px 0px crimson,
+        3px 3px 0px skyblue,
+        6px 6px 0px transparent;
+}
+
+#login {
+    width: 9vw;
+    height: 6.5vh;
+}
+
+#signup {
+    width: 10vw;
+    height: 6.5vh;
+}
+
+.smallText {
+    font-size: 2.25vw;
+    font-family: 'Itim', cursive;
+    color: #3a3b3c;
+}
+
+.c1 {
+    top: 5vh;
+    left: 60vw;
+}
+
+.c2 {
+    top: 60vh;
+    left: 20vw;
+}
+
+.c3 {
+    top: 50vh;
+    left: 50vw;
+}
+
+.c4 {
+    top: 30vh;
+    left: 5vw;
+}
+
+.c5 {
+    top: 16vh;
+    left: 76vw;
+    text-align: center;
+}
+
+.c6 {
+    top: 70vh;
+    left: 36vw;
+    text-align: center;
+}
+
+.c7 {
+    top: 19vh;
+    left: 30vw;
+    text-align: center;
+}
+
+.c8 {
+    top: 40vh;
+    left: 60vw;
+}
+
+.c9 {
+    top: 60vh;
+    left: 5vw;
+}
+
+.c10 {
+    top: 30vh;
+    left: 60vw;
+}
+
+.c11 {
+    top: 80vh;
+    left: 80vw;
+}
+
+.d1 {
+    top: 60vh;
+    left: 5vw;
+}
+
+.d2 {
+    top: 20vh;
+    left: 60vw;
+}
+
+.d3 {
+    top: 30vh;
+    left: 10vw;
+}
+
+.d4 {
+    top: 50vh;
+    left: 40vw;
+}
+
+.d5 {
+    top: 10vh;
+    left: 60vw;
+}
+
+.d6 {
+    top: 70vh;
+    left: 60vw;
+}
+
+.d7 {
+    top: 30vh;
+    left: 10vw;
+}
+
+.d8 {
+    top: 50vh;
+    left: 50vw;
+}
+
+.d9 {
+    top: 70vh;
+    left: 70vw;
+}
+
+.d10 {
+    top: 20vh;
+    left: 60vw;
+}
+
+.d11 {
+    top: 60vh;
+    left: 30vw;
+}
+
+.d12 {
+    top: 5vh;
+    left: 40vw;
+}
+
+.d13 {
+    top: 20vh;
+    left: 15vw;
+}
+
+.d14 {
+    top: 70vh;
+    left: 10vw;
+}
+
+.d15 {
+    top: 5vh;
+    left: 40vw;
+}
+
+.d0 {
+    padding: 2vw 2vw;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw #3a3b3c;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+}
+
+.texting2 {
+    color: #3a3b3c;
+    font-size: 3vw;
+    font-family: 'Itim', cursive;
+}
+
+.inputOne {
+    background-color: #f9f9f9;
+    color: #3a3b3c;
+    font-size: 2vw;
+    font-family: 'Itim', cursive;
+    width: 40vw;
+    height: 3vw;
+    border-radius: 30px 30px 30px 30px;
+    padding: 0vw 1vw;
+}
+
+.submitOne {
+    background-color: #f9f9f9;
+    color: #3a3b3c;
+    font-size: 2vw;
+    font-family: 'Itim', cursive;
+    width: 6vw;
+    height: 3.25vw;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.text {
+    background-color: #f9f9f9;
+    color: #3a3b3c;
+    font-size: 2vw;
+    width: 97%;
+    font-family: 'Itim', cursive;
+    height: 3vw;
+    border-radius: 30px 30px 30px 30px;
+    padding: 0vw 1vw;
+}
+
+.Edit {
+    background-color: #f9f9f9;
+    color: #3a3b3c;
+    font-size: 1.5vw;
+    font-family: 'Itim', cursive;
+    width: 4vw;
+    height: 2vw;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 0.3vw;
+    margin-left: 70%;
+}
+
+.Delete {
+    background-color: #f9f9f9;
+    color: #3a3b3c;
+    font-size: 1.5vw;
+    font-family: 'Itim', cursive;
+    width: 5.5vw;
+    height: 2vw;
+    border-radius: 30px 30px 30px 30px;
+    margin: 0.3vw 0vw 0vw 0.25vw;
+}
+
+.task {
+    margin-bottom: 1vw;
+    width: 60vw;
+    background-color: rgb(250, 250, 186);
+    text-align: center;
+    padding: 1vw 2vw 1vw 1vw;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.InAndOutput {
+    margin-bottom: 1vw;
+    width: 49vw;
+    background-color: rgb(250, 250, 186);
+    text-align: center;
+    padding: 1vw 2vw 1vw 1vw;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.body {
+    width: 63vw;
+    margin: auto;
+    padding: 1vw 5vw;
+    background-color: #f9f9f9;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.SchBody {
+    background-color: #3a3b3c;
+}
+
+.style {
+    position: absolute;
+    top: 0;
+    left: 2.5vw;
+    font-size: 2.5vw;
+    color: #3a3b3c;
+    font-family: 'Itim', cursive;
+    padding: 2vw 1vw;
+    background-color: rgb(250, 250, 186);
+    border-radius: 0px 0px 30px 30px;
+    /* text-decoration: none; */
+}
+
+.thankYou {
+    width: 852.5px;
+    height: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2vw;
+    background-color: rgb(250, 250, 186);
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw #3a3b3c;
+}
+
+.container69 {
+    display: flex;
+    font-family: 'Itim', cursive;
+    font-size: 4vh;
+    width: 10vw;
+    height: 9.5vw;
+    position: absolute;
+    top: 20vh;
+    left: 2vw;
+}
+
+.clock {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 250, 186);
+    color: #3a3b3c;
+    border-radius: 50%;
+    border: 0.5vh solid cornsilk;
+    box-shadow: #131313 0.5vh 0.5vh 1vh, #131313 -0.5vh -0.5vh 1vh;
+}
+
+.numbers {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.numbers div {
+    position: absolute;
+}
+
+.twelve {
+    top: 0.1vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.three {
+    right: 0.1vh;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.six {
+    bottom: 0.125vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nine {
+    left: 0.1vh;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrows {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1vh;
+    left: 4.75vw;
+}
+
+.arrows div {
+    width: 0.7vh;
+    height: 2.5vw;
+    position: absolute;
+    bottom: 50%;
+    background-color: #3a3b3c;
+    box-shadow: 0.2vh 0.2vh 0.5vh #131313;
+    transform-origin: bottom center;
+}
+
+.arrows .hour {
+    z-index: 9;
+    height: 2vw;
+    transform: rotate(90deg);
+}
+
+.arrows .second {
+    z-index: 1;
+    height: 3vw;
+    transform: rotate(270deg);
+}

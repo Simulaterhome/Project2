@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happiness Journey</title>
+    <link rel="shortcut icon" href="../picture/IconMain.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/SUandL.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="div" style="margin-top: 10vh;">
+        <div>
+            <p id="result"></p>
+        </div>
+        <div style="padding-top: 5vh;">
+            <h1 class="font color bonus">Log in to The Happiness Journey</h1>
+        </div>
+        <div class="div2 margin">
+            <form onsubmit="login()">
+                <label for="Username" class=""></label>
+                <input type="text" name="username" id="username" class="form-control input-field a"
+                    placeholder="Username" value="" required>
+                <label for="Password" class=""></label>
+                <input type="password" name="password" id="password" class="form-control input-field a"
+                    placeholder="Password" value="" required>
+                <input type="submit" value="Log in" style="margin: 6px 0 12px; font-size: 16px;" class="size">
+            </form>
+        </div>
+        <div style="display:inline-flex;" class="div3">
+            <div style="display: inline-flex; width: 210px; justify-content: space-between;">
+                <p class="font color">Remember my credentials</p>
+                <i onclick=buttonHandler(this) class="color fa-regular fa-square"></i>
+            </div>
+            <div>
+                <a href="" class="textdeco font color">Forgot Password or Username?</a>
+            </div>
+        </div>
+        <div style="text-align: center;" class="mt">
+            <div style="display: inline-flex;" class="mb">
+                <p class="font color fs" style="margin-right: 1vh;">Don't have an account?</p>
+                <a href="./SignUp.html" class="font color fs textdeco">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
